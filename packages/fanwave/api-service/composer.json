@@ -1,0 +1,34 @@
+{
+    "name": "fanwave/api-service",
+    "description": "API structure service",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mike Turner",
+            "email": "michael88.turner@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fanwave\\ApiService\\": "src/"
+        },
+        "files": []
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fanwave\\ApiService\\Providers\\ApiServiceServiceProvider"
+            ]
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {},
+        "files": []
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {}
+}
